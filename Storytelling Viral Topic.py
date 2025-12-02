@@ -12,7 +12,7 @@ YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
 st.title("YouTube Viral Topics Tool")
 
 # Input Fields
-days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30, value=5)
+days = st.number_input("Enter Days to Search (1-180):", min_value=1, max_value=180, value=5)
 
 # List of broader keywords
 keywords = [
