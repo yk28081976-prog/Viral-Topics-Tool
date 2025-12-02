@@ -16,8 +16,11 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
- "storytelling", "inspirational stories", "motivational stories", "inspirational stories in english", "short motivational story in english","storytelling communication skills", "English story for beginners", "daily use English words", "phrase in English speaking","long sentences spoken English", "how to practice English speaking alone", "improve English speaking skills everyday", "basic sentences in English", "motivational story", "moral stories in English", "short stories in English", "interesting story", "motivational stories in English", "practice English with story", "English speaking", "Student motivation"
-]
+ "storytelling", "inspirational stories", "motivational stories", "inspirational stories in english", "short motivational story in english", "storytelling communication skills", "English story for beginners", "daily use English words", "phrase in English speaking", "long sentences spoken English", "how to practice English speaking alone", "improve English speaking skills everyday", "basic sentences in English", "motivational story", "moral stories in English", "short stories in English", "interesting story", "motivational stories in English", "practice English with story", "English speaking", "Student motivation", "Motivational Storytelling", "Life Lessons", "Personal Growth", "Motivational Storytelling", "Emotional Stories", "Self Improvement", 
+"Inspirational Stories", "Motivational Storytelling", "Life Transformation", "Motivational Storytelling", "Success Stories", "Life Guidance" , "Spiritual Storytelling", "Inspirational Stories", "Life Lessons", "Motivational Storytelling", "Emotional Narratives", "Real-Life Lessons", 
+"Motivation", "Growth Mindset", "Personal Development", "Wisdom Stories", "Inspirational Storytelling", "Moral Lessons" , "Mindset Coaching", "Motivational Content", "Self Discipline", 
+"Motivational Videos", "Success Mindset", "Inspirational Content", "Motivational Storytelling", "Life Stories", "Emotional Motivation", "Inspirational Quotes", "Spiritual Motivation", "Positive Thinking", "Historical Storytelling", "Educational Stories", "Real History"]
+
 
 # Fetch Data Button
 if st.button("Fetch Data"):
