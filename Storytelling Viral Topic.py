@@ -16,7 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
- " storytelling "inspirational stories "motivational stories "inspirational stories in english"short motivational story in english"storytelling communication skills "English story for beginners "daily use English words “phrase in English speaking/long sentences spoken English “how to practice English speaking alone/improve English speaking skills everyday “basic sentences in English/motivational story “moral stories in English/short stories in English “interesting story/motivational stories in English “practice English with story “English speaking " Student motivation "
+ "storytelling", "inspirational stories", "motivational stories", "inspirational stories in english", "short motivational story in english","storytelling communication skills", "English story for beginners", "daily use English words", "phrase in English speaking","long sentences spoken English", "how to practice English speaking alone", "improve English speaking skills everyday", "basic sentences in English", "motivational story", "moral stories in English", "short stories in English", "interesting story", "motivational stories in English", "practice English with story", "English speaking", "Student motivation"
 ]
 
 # Fetch Data Button
